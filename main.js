@@ -31,8 +31,8 @@ submit.addEventListener("click", () => {
   getWeather(input.value);
   city_name.innerHTML = "Weather of " + input.value;
   city_name1.innerHTML = input.value;
+  city_name2.innerHTML = input.value;
   info.style.display = "none";
   document.getElementById("result").style.display = "block";
   document.getElementById("card-feel").style.display = "block";
-  document.getElementById("city_name2").innerHTML = input.value;
 });
